@@ -1,0 +1,41 @@
+.cc-profile-image a:before {
+    border-color: #022B3A !important;
+  }
+  
+  .btn-primary {
+    background-color: #8D99AE;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #2B2D42;
+}
+.progress-container.progress-primary .progress-bar {
+    background: #022B3A;
+}
+.progress-container.progress-primary .progress-value, .progress-container.progress-primary .progress-badge {
+    color: #738393;
+}
+.progress-container.progress-primary .progress {
+    background: rgba(2, 43, 58, 0.4);
+}
+.nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
+    background-color: #1F7A8C;
+}
+
+.bg-primary {
+    background-color: #9BBCE0 !important;
+}
+.page-header:before {
+    background-color: #1d00ff38
+}
+@media (min-width: 992px) {
+    .page-header .page-header-image {
+      background-position: center 30%;
+      /* or transform: translateY(50px); */
+    }
+  }
+  
+.cc-reference .carousel-indicators .active {
+    background-color: #1F7A8C;
+}
