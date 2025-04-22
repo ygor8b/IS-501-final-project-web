@@ -6,9 +6,9 @@
     --bs-btn-color: #fff;
     --bs-btn-bg: #1F7A8C;
     --bs-btn-border-color: #1F7A8C;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #1abc9c;
-    --bs-btn-hover-border-color: #1F7A8C;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #1F7A8C;
+    --bs-btn-hover-border-color: #fff;
     --bs-btn-focus-shadow-rgb: 60, 198, 171;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #1F7A8C;
@@ -17,3 +17,18 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #1F7A8C;
     --bs-btn-disabled-border-color: #1F7A8C;}
+
+    .btn:hover{
+        background-color: rgba(31, 122, 140, 0.6);
+    }
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #fff;
+        background: #1F7A8C;
+    }
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: rgba(31, 122, 140, 0.6);
+}
